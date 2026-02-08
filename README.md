@@ -51,8 +51,8 @@ test_002,3 12 50 7 ...
 ## Folder Structure
 
 ```
-submission/
-├── inference_pipeline.py
+├── inference_pipeline.py - For directly downloading and running by testers
+├── notebook_best - Jupyter notebook containing the code for model training and inference
 ├── requirements.txt
 ├── README.md
 ├── best_student_b3.pth (downloaded)
@@ -62,4 +62,5 @@ submission/
 └── submission.csv (generated)
 └── IMPORTANT_LINKS.txt 
 ```
+
 
