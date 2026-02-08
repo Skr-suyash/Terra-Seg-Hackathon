@@ -60,4 +60,6 @@ submission/
 │   ├── image1.jpg
 │   └── ...
 └── submission.csv (generated)
+└── IMPORTANT_LINKS.txt 
 ```
+
