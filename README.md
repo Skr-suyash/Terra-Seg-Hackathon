@@ -10,6 +10,15 @@ Terrain segmentation inference using MIT-B3 SegFormer model with multi-scale TTA
 1. Edit the "TEST_DIR" variable in the paths section with the path to the test images.
 (Default value is 'test_images_padded')
 
+2. Install requirements
+```
+pip install -r requirements.txt
+```
+3. Run the inference script
+```
+python inference_pipeline.py
+```
+
 ## Techniques Used
 
 ### 1. Model Architecture
@@ -62,5 +71,6 @@ test_002,3 12 50 7 ...
 └── submission.csv (generated)
 └── IMPORTANT_LINKS.txt 
 ```
+
 
 
